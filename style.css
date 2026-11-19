@@ -11,8 +11,9 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 100px);
     grid-template-rows: repeat(3, 100px);
-    gap: 1px;
+    gap: 0;
     background-color: #fff;
+    border: 2px solid #000;
 }
 
 .box {
@@ -22,5 +23,7 @@ body {
     font-size: 2em;
     font-weight: bold;
     height: 100%;
+    box-sizing: border-box;
+    border: 1px solid #000;
     cursor: pointer;
 }
